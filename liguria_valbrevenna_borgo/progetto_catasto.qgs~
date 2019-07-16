@@ -1,9 +1,9 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis projectname="" version="2.14.7-Essen">
   <title></title>
-  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Comuni20190716120715653" name="Comuni">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Comuni20190716120715653" name="Comuni">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="particelle_da_visura20190716122040401" name="particelle_da_visura proprieta Polygon">
@@ -12,18 +12,15 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenStreetMap20190716112918439" name="OpenStreetMap">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20190716201213827" name="Bing Aerial">
-      <customproperties/>
-    </layer-tree-layer>
   </layer-tree-group>
   <relations/>
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1013339.07327802339568734</xmin>
-      <ymin>5553006.43600996490567923</ymin>
-      <xmax>1016103.34057788737118244</xmax>
-      <ymax>5556048.26336010452359915</ymax>
+      <xmin>1014629.36546986410394311</xmin>
+      <ymin>5553705.96083075739443302</ymin>
+      <xmax>1014974.89888234715908766</xmax>
+      <ymax>5554086.18924952484667301</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -43,14 +40,12 @@
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="catasto_terreni_liguria20190716112849620"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="catasto_terreni_liguria20190716120541839"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20190716201148547"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Comuni20190716120715653"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="catasto_terreni_liguria20190716112742249"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="contorni_catastali20190716112516747"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="particelle_da_visura20190716122040401"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Comuni_storici20190716122733692"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3003" srcDatumTransform="-1" destDatumTransform="-1" layerid="M2002_L659220190716112556765"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20190716201213827"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="proprieta20190716123723057"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3003" srcDatumTransform="-1" destDatumTransform="-1" layerid="M2002_L658920190716113016397"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3003" srcDatumTransform="-1" destDatumTransform="-1" layerid="M2002_L659220190716115557181"/>
@@ -62,13 +57,12 @@
       <item>OpenStreetMap20190716112918439</item>
       <item>Comuni20190716120715653</item>
       <item>particelle_da_visura20190716122040401</item>
-      <item>OpenLayers_plugin_layer20190716201213827</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Comuni" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Comuni" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Comuni20190716120715653" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Comuni20190716120715653" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="particelle_da_visura proprieta Polygon" showFeatureCount="0">
@@ -79,11 +73,6 @@
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OpenStreetMap" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="OpenStreetMap20190716112918439" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Bing Aerial" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20190716201213827" visible="0"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -431,35 +420,6 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
-      <extent>
-        <xmin>-20037508.33999999985098839</xmin>
-        <ymin>-20037508.33999999985098839</ymin>
-        <xmax>20037508.33999999985098839</xmax>
-        <ymax>20037508.33999999985098839</ymax>
-      </extent>
-      <id>OpenLayers_plugin_layer20190716201213827</id>
-      <datasource></datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Bing Aerial</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="ol_layer_type" value="Bing Aerial"/>
-      </customproperties>
-    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-20037508.33999999985098839</xmin>
@@ -593,9 +553,6 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="categoria">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="area">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
