@@ -1,0 +1,40 @@
+Vendesi multiproprietà in piccolo borgo
+Località CASAREGGIO, comune Valbrevenna (Liguria)
+Trattasi di n. 3 case + 1 fienile che può trasformarsi in abitazione (foto), vari ricoveri attrezzi + 13/15 ETTARI di terreni circa.
+Il complesso è accatastato e CARRABILE (una rarità per la zona, infatti è l'unico)
+La casa gialla (foto): n. 2 piani grandi con 4 stanze cad. + una mansarda abitabile e con soffitto alto, alla base enorme stalla (tetto e facciate in ordine, bisogna ricavare 1 o 2 bagni (al momento c'è  solo 1 water nel terrazzino esterno) mq 400 circa
+La casa grigia (foto): stupendi 2 piani per amatori + piano terra e cantina + soffitta + bagno recente (da rifare impianti e ripulire) mq 150 circa 
+Altra casa n. 2 piani + ex stalla alla base COMPLETAMENTE DA RISTRUTTURARE mq 120 circa
+Fienile (foto): da adibire ad libitum
+Orto e terreni che circondano completamente la proprietà + circa 13 ETTARI di prati e boschi nei dintorni
+Complesso unico in zona, esposto completamente al sole, situato  ai piedi del Monte Antola, è il paese prima di Tonno.
+Adatto a varie attività imprenditoriali: agriturismo, allevamenti, b&b, case vacanza, ECOVILLAGGIO, etc
+Unico particolarità da segnalare è che la strada nell"ultimo tratto è un po' stretta.
+Il microclima è adatto a tutte le coltivazioni e in particolare a quella di grano e cereali vari.
+Per info scrivetemi email:
+giuliana.bimby@yahoo.it
+
+
+
+******************************
+QUERY QGIS
+WFS:
+http://geoservizi.regione.liguria.it/geoserver/M2002/wfs?version=1.3.0&request=getcapabilities
+
+
+FILTRO su PARTICELLE da DB_MANAGER perchè sti cazzo di colonne hanno degli spazi!!:
+
+SELECT * FROM particelle_parziali WHERE 
+cast(ct24_foglio as int) ||'_'|| TRIM(ct24_numero) IN ('2_9','2_11','2_23','2_29','2_32','2_41','2_46','2_61','2_239','2_243','2_247','2_269','2_290','2_295','2_296','2_299','2_315','2_334','2_350','3_49','4_40','4_85','4_146','4_184','4_571','6_46','6_83','30_14','30_15','30_19','30_20','30_34','30_47','30_66','30_67','30_81','30_91','30_92','30_111','30_112','30_121','30_133','30_155','30_176','30_177','30_178','30_191','30_219','30_226','30_233','30_241','30_308','30_310','30_332','30_333','30_334','30_362','31_5','31_6','31_22','31_37','31_44','31_46','31_54','31_111','31_113','31_368','33_97','33_135','33_144','33_145','33_163','33_166','33_182','33_185','33_187','33_249','33_278','33_281','33_337','33_445','33_447','33_449','33_456','33_468','33_470','33_498','33_549','33_565','33_587','33_609','33_641','33_728','33_729','33_732','33_738','33_761','33_1056','33_1057','34_1','34_2','34_6','34_11','34_70','34_71','34_119','34_124','35_7','35_56','37_364','37_372','37_419','37_420','37_489','37_497','37_560','38_19','38_113','38_181','38_228','38_289','38_290','39_69','39_79','42_72','42_81','43_80','43_126','43_173','43_301','64_218','64_225','64_322','64_327','64_372','64_418','64_419')
+
+
+
+MODIFICA CATEGORIA:
+
+UPDATE proprieta SET categoria='prato' WHERE 
+cast(ct24_foglio as int) ||'_'|| TRIM(ct24_numero) IN 
+('2_11','2_32','2_41','2_46','2_61','2_247','2_295','2_299','2_315','2_334','2_350','3_49','4_40','4_146','30_14','30_92','30_112','30_155','30_176','30_178','30_191','31_6','33_144','33_163','33_182','33_185','33_187','33_249','33_468','33_470','33_498','33_641','33_732','37_372','43_80','43_126','43_173','64_322','64_327','64_419')
+
+UPDATE proprieta SET categoria='cast_frutt' WHERE 
+cast(ct24_foglio as int) ||'_'|| TRIM(ct24_numero) IN 
+('30_67','30_91','30_219','30_226','30_241','30_308','30_310','30_332','30_334','30_362','31_22','34_6','34_70','34_71','34_119','34_124','35_56','38_290','39_69','39_79')
